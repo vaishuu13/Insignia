@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="signup.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="signup.css">
+        <script type="text/javascript">
+
+            function addtext()
+            {
+               var email = document.myform.email.value;
+               var number = document.myform.number.value;
+               document.writeln("Successfully registered!");
+               document.writeln("<pre>");
+               document.writeln("email :" + email);
+               document.writeln("number : " + number);
+            }
+          </script>
+    </head>
+    <body>
+      <img src="logo.jpg" id="signuplogo">
+      <p id=signupp>Insignia</p>
+        <form name="myform">
+          <input id="email" type="text" name="email" placeholder="Enter email" required>
+          <input id="pwd" type="password" name="pwd" placeholder="Enter password" required>
+          <input id="number" type="tel" name="number" placeholder="Enter 10 digit mobile number"  required>
+          <button id="submit" type="submit" name="submit" onclick="addtext()" >Sign up</button>
+          <button id="reset" type="reset" name="reset">Reset</button>
+        </form>
+        </body>
+</html>

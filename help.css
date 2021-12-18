@@ -1,0 +1,47 @@
+#a1:hover{
+    color: aqua;
+}
+#a1{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 450px;
+    left:200px;
+}
+#a2{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 500px;
+    left:200px;
+}
+#a2:hover{
+    color: aqua;
+}
+#a3{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 550px;
+    left:200px;
+}
+#a3:hover{
+    color: aqua;
+}
+#a4{
+    padding: 15px;
+    text-align: center;
+    color: aqua;
+    text-decoration: none;
+    position: absolute;
+    top: 600px;
+    left:500px;
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    box-shadow: -5px -5px 13px rgb(34, 33, 33),5px 5px 13px rgb(34, 33, 33);
+    background-color: transparent;
+    border-color: black;
+}
+
+
